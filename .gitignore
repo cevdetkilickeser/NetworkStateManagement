@@ -1,0 +1,71 @@
+# Kotlin/Jetpack Compose için temel gitignore
+
+# Android Studio/IntelliJ IDEA
+.idea/
+*.iml
+.gradle/
+build/
+local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Kullanıcıyla ilgili dosyalar
+*.log
+*.suo
+*.tmp
+*.swp
+*.orig
+*.bak
+*.DS_Store
+Thumbs.db
+
+# Android Build Dosyaları
+/build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# İkili dosyalar
+*.keystore
+*.jks
+
+# Paketlenmiş Dosyalar
+*.apk
+*.ap_
+*.dex
+*.aar
+*.jar
+*.class
+
+# Linux/MacOS/Windows dosyaları
+.DS_Store
+*.swo
+*.stackdump
+*.lock
+*.pid
+*.seed
+
+# ProGuard ve R8
+proguard/
+*.mapping
+*.dump
+*.apk.idsig
+
+# Miscellaneous
+*.hprof
+captures/
+output.json
+
+# Crashlytics/Firebase
+crashlytics.properties
+fabric.properties
+
+# Jetpack Compose Preview
+.idea/compose-compiler/
+
+# Lint ve Analiz Çıktıları
+/lint/intermediates/
+/lint/generated/
